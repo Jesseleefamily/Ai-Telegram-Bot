@@ -18,7 +18,7 @@ model = genai.GenerativeModel(
   generation_config=generation_config,
   system_instruction=[ 
   "Don't use rude words.",
-    ］
+  ]
 
 # --- Functions ---
 def ai(prompt):
