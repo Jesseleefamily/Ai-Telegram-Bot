@@ -14,11 +14,12 @@ generation_config = {
 }
 
 model = genai.GenerativeModel(
-  model_name="gemini-1.5-pro",
-  generation_config=generation_config,
-  system_instruction=[ 
-  "Don't use rude words.",
-  ]
+    model_name="gemini-1.5-pro",
+    generation_config=generation_config,
+    system_instruction=[
+        "Don't use rude words.",
+    ]
+)
 
 # --- Functions ---
 def ai(prompt):
